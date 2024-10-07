@@ -16,6 +16,6 @@
 
 ## Запуск приложения в контейнере Docker
 
-- `docker-compose up -d`
+- `docker-compose --env-file ./env/.env-example up -d`
 
 Перед запуском необходимо настроить переменные окружения в файле [.env-example](env%2F.env-example)
